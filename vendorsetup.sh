@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 add_lunch_combo full_epicmtd-eng
-add_lunch_combo cm_epicmtd-eng
-add_lunch_combo cm_epicmtd-userdebug
+add_lunch_combo cd_epicmtd-eng
+add_lunch_combo cd_epicmtd-userdebug

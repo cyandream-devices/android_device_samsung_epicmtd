@@ -1,0 +1,17 @@
+[
+ {
+   "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_kernel_samsung_epicmtd",
+   "target_path": "kernel/samsung/epicmtd"
+ },
+ {
+   "branch": "cm-11.0",
+    "repository": "CyanogenMod/android_hardware_samsung",
+   "target_path": "hardware/samsung"
+ },
+ { 
+   "branch": "cm-11.0", 
+   "repository": "TheMuppets/proprietary_vendor_samsung", 
+   "target_path": "vendor/samsung" 
+ } 
+]

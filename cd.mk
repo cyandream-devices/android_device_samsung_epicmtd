@@ -2,14 +2,14 @@
 PRODUCT_RELEASE_NAME := EpicMTD
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/epicmtd/full_epicmtd.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := epicmtd
-PRODUCT_NAME := cm_epicmtd
+PRODUCT_NAME := cd_epicmtd
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SPH-D700
 PRODUCT_MANUFACTURER := samsung
