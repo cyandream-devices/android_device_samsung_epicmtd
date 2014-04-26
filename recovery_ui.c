@@ -22,10 +22,6 @@
 #include "common.h"
 #include "extendedcommands.h"
 
-int device_toggle_display(volatile char* key_pressed, int key_code) { 
-    return key_code == 23; // keypad d key
-}
-
 int device_handle_key(int key_code, int visible) {
     if (visible) {
         switch (key_code) {
@@ -49,8 +45,9 @@ int device_handle_key(int key_code, int visible) {
             case 116: // side power button
             case 57:  // keypad back key 
             case 30:  // keypad delete key
-                if (!get_allow_toggle_display())
+                if (!ui_root_menu) {
                     return GO_BACK;
+                }
         }
     }
 
